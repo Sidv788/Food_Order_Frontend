@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delievery Service in India | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" media="screen and (max-width: 1331px)" href="css/phone1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo2.jpg" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li><a href="#home-container">Home</a></li>
+            <li><a href="#services-container">Services</a></li>
+            <li> <a href="#ContactUs">Create Account</a></li>
+        </ul>
+    </nav>
+
+    <section id="home-container">
+        <h1>Welcome to MyOnlineMeal</h1>
+        <p>Best diet meals , healthy food</p>
+        <p>fastest delivery!</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1>Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2>Food Catering</h2>
+                <p>Look what’s cookin’.</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2>Bulk Catering</h2>
+                <p>Grill, Frill, Chill.</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2>Food Ordering</h2>
+                <p>Serving a great memories.</p>
+            </div>
+        </div>
+    </section>
+    <section id="ContactUs">
+        <h2>Create Account</h2>
+        <div class="form">
+            <form aciton ="/myaction.php" name="myForm" onsubmit= "{validateForm}" method="post">
+                <div class="form-item">
+                    <label for="username">Username:</label>
+                    <input type="text" name="" id="username" placeholder="Enter your name" required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+                <div class="form-item">
+                    <label for="Email">E-mail:</label>
+                    <input type="email" id="Email" placeholder="Enter your Email ID" required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+                <div class="form-item">
+                    <label for="phno">Phone No.:</label>
+                    <input type="number" name="" id="phno" placeholder="Enter your Phone No." required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+                <div class="form-item">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="" id="pass" placeholder="Enter Password" required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+                <div class="form-item">
+                    <label for="confirmpass">Confirm Password:</label>
+                    <input type="password" name="" id="confirmpass" placeholder="Re-Enter Password" required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+                <!-- <div class="form-item">
+                    <label for="msg">Message: </label>
+                    <textarea id="msg" cols="30" rows="10" placeholder="Enter a message"></textarea>
+                </div> -->
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer">
+            Copyright &copy; www.MyOnlineMeal.com. All rights Reserved!
+        </div>
+    </footer>
+</body>
+
+<script src="index.js"></script>
+
+</html>
